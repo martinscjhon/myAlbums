@@ -56,10 +56,10 @@ yarn
 
 Após a instalação das dependências, execute o projeto com o comando:
 
-Usando npm
+Usando npm =>
 npm run dev
 
-Usando yarn
+Usando yarn =>
 yarn dev
 
 ### 🌐 Acessando a aplicação
