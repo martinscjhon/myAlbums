@@ -46,10 +46,10 @@ code .
 
 Instale as dependências do projeto utilizando o gerenciador de pacotes de sua preferência:
 
-Usando npm
+Usando npm =>
 npm install
 
-Usando yarn
+Usando yarn =>
 yarn
 
 ### ▶️ Executando o projeto
