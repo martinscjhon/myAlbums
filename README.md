@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
+# Projeto Teste => MyAlbums
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido para fins de teste.
 
-Currently, two official plugins are available:
+Abaixo estão as instruções para configurar e rodar a aplicação localmente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📋 Pré-requisitos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas:
 
-## Expanding the ESLint configuration
+- Node.js (recomendado versão LTS)
+- npm ou yarn
+- Git
+- Visual Studio Code
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📦 Clonando o repositório
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Você pode clonar o projeto utilizando HTTPS ou SSH.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### HTTPS
+
+```bash
+git clone https://github.com/martinscjhon/myAlbums.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### SSH
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+git clone git@github.com:martinscjhon/myAlbums.git
 ```
+
+### 📂 Acessando o projeto
+
+Após clonar o repositório, entre na pasta do projeto e abra no VS Code:
+
+```bash
+cd myAlbums
+code .
+```
+
+### 📥 Instalando as dependências
+
+Instale as dependências do projeto utilizando o gerenciador de pacotes de sua preferência:
+
+Usando npm
+npm install
+
+Usando yarn
+yarn
+
+### ▶️ Executando o projeto
+
+Após a instalação das dependências, execute o projeto com o comando:
+
+Usando npm
+npm run dev
+
+Usando yarn
+yarn dev
+
+### 🌐 Acessando a aplicação
+
+A aplicação estará disponível no navegador no seguinte endereço:
+
+👉 http://localhost:5173/
+
+### 🛠️ Tecnologias utilizadas
+
+- Node.js
+- npm / Yarn
+- Vite (react)
