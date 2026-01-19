@@ -70,6 +70,10 @@ A aplicação estará disponível no navegador no seguinte endereço:
 
 👉 http://localhost:5173/
 
+### 👉 Acessando a aplicação
+
+informações adicionais: No upload da imagem, por não ter uma integração com S3 ou outra ferramenta semelhante, peço que observem o tamanho da imagem que estarão subindo.
+
 ### 🛠️ Tecnologias utilizadas
 
 - Node.js
