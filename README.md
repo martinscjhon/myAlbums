@@ -44,6 +44,8 @@ code .
 
 ### 📥 Instalando as dependências
 
+Certifique-se que seu node está na versão acima de 20.19.0.
+
 Instale as dependências do projeto utilizando o gerenciador de pacotes de sua preferência:
 
 Usando npm =>
